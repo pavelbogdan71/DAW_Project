@@ -1,0 +1,11 @@
+.car-name-text{
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.car-price-text{
+    font-size:20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+}

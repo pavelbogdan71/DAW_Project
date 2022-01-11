@@ -1,21 +1,20 @@
-<div class="container">
-    <div class="row">
-        <img [src]="carInfo.imagePath" width="500" height="250">
-    </div>
-    <div class="row">
-        <div class="car-name">
-            
-            <p>{{carInfo.name}}</p>
+<div class="container" style="margin-bottom:30px;">
+        <div class="row">
+            <img [src]="carInfo.imagePath" width="450" height="250">
         </div>
-    </div>
-    <div class="row">
-        <div class="car-price">
-            <p>{{carInfo.price}}</p>
+        <div class="row">
+            <div class="car-name" >
+                <p class="car-name-text">{{carInfo.name}}</p>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <a [routerLink]="carInfo.link">
-            More details>
-        </a>
-    </div>
+        <div class="row">
+            <div class="car-price">
+                <p class="car-price-text">Price: {{carInfo.price}}</p>
+            </div>
+        </div>
+        <div class="row">
+            <a class="btn btn-default" style="background-color:darkcyan;color:white;border-radius: 10px;" [routerLink]="carInfo.link">
+                More details>
+            </a>
+        </div>
 </div>

@@ -6,3 +6,20 @@
     padding-right: 0!important;
 }
 
+.button-homepage{
+    font-size: 30px;
+    background-color:white;
+    border-radius:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(71, 70, 70);
+    -webkit-text-stroke: black;
+}
+
+.title-text{
+    position:absolute;
+    z-index: 100;
+    color: white;
+    font-size: 50px;
+    margin-left:-100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
